@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: #facc15;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #facc15;
+}
+
+.carousel-item img {
+  height: 85vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  color: white;
+}
+
+.showroom {
+  height: 70vh;
+}
+.brands-section {
+  background-color: #ffffff;
+}
+
+.brand-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 30px 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+
+  height: 100%;
+}
+
+.brand-card img {
+  max-width: 70px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.brand-card p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.brand-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+}
+
+.brand-card:hover p {
+  color: #e63946;
+}
+.brands-section {
+  background-color: black;
+}
+.fw-bold {
+  color: #facc15;
+  font-size: 3rem;
+}
+.btn {
+  height: 5vh;
+}
+.popular-cars {
+  background: #fafafa;
+}
+
+.popular-badge {
+  background: #ffecec;
+  color: red;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.car-card {
+  background: #fcf7f7;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.car-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.15);
+}
+
+.car-img {
+  position: relative;
+}
+
+.car-img img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.price {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #ffffff;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: 700;
+  color: red;
+}
+
+.price small {
+  color: #555;
+  font-weight: 500;
+}
+
+.car-body {
+  padding: 20px;
+}
+
+.rating {
+  background: #fff5e6;
+  color: #ff9800;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.desc {
+  font-size: 14px;
+  color: #555;
+  margin: 12px 0;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+.features li {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.features i {
+  color: red;
+  margin-right: 8px;
+}
+
+.rent-btn {
+  border: 1px solid #000;
+  background: transparent;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.rent-btn:hover {
+  background: #facc15;
+  color: black;
+}
+.txt-bold {
+  color: #facc15;
+}
+.popular-cars {
+  background-color: black;
+}
+.txt2-bold {
+  justify-content: center;
+}
+.car-service {
+  background-color: black;
+  color: #f3eeee;
+}
+
+.service-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #facc15;
+}
+
+.service-subtitle {
+  color: #cbd5f5;
+  font-size: 16px;
+}
+
+.service-box {
+  background: #020617;
+  padding: 35px 25px;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.4s;
+  height: 100%;
+}
+
+.service-box i {
+  font-size: 45px;
+  color: #facc15;
+  margin-bottom: 20px;
+}
+
+.service-box h4 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.service-box p {
+  font-size: 15px;
+  color: #cbd5f5;
+}
+
+.service-box:hover {
+  transform: translateY(-10px);
+  background: linear-gradient(135deg, #facc15, #eab308);
+  color: #020617;
+}
+
+.service-box:hover i,
+.service-box:hover p {
+  color: #020617;
+}
+.faq-section {
+  background-color: black;
+  color: #fff;
+}
+
+.faq-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #facc15;
+}
+
+.faq-subtitle {
+  color: #cbd5f5;
+  font-size: 16px;
+}
+
+.faq-box {
+  background: #0f172a;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+.accordion-button {
+  background-color: #0f172a;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+  background: linear-gradient(135deg, #facc15, #eab308);
+  color: #020617;
+}
+
+.accordion-button::after {
+  filter: invert(1);
+}
+
+.accordion-body {
+  background-color: #020617;
+  color: #cbd5f5;
+  border-radius: 0 0 10px 10px;
+}
+.footer-section {
+  background-color: #020617;
+  color: #cbd5f5;
+  padding: 60px 0 20px;
+}
+
+.footer-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #facc15;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #cbd5f5;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #facc15;
+  padding-left: 5px;
+}
+
+.footer-section i {
+  margin-right: 8px;
+  color: #facc15;
+}
+
+.footer-social {
+  margin-top: 15px;
+}
+
+.footer-social a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  width: 38px;
+  background: #0f172a;
+  color: #facc15;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  background: #facc15;
+  color: #020617;
+}
+
+.footer-bottom {
+  border-top: 1px solid #0f172a;
+  padding-top: 15px;
+  font-size: 14px;
+}
+.rent-btn{
+  background-color: #eab308;
+  border: none;
+}
+
+
+
